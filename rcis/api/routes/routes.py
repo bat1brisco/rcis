@@ -1,5 +1,5 @@
-from flask import jsonify, Blueprint
-from module.controller.usercontroller import *
+
+from flask import Flask, jsonify, Blueprint
 user = Blueprint('user', __name__)
 
 @user.route('/test/<bran>', methods=['GET'])
