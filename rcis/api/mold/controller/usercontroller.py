@@ -1,10 +1,7 @@
-import requests
 from flask import Flask, request, jsonify
 
 
-class usr_controller():
-    def __init__(self, arg):
-        self.arg = arg
+class usr_controller(object):
 
-    def main():
-        return {'dong': bran}
+    def main(self):
+        return {'dong': self}
